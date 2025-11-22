@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Hammer, RefreshCw, Sun, ArrowRight, Clock, Shield, Star } from 'lucide-react';
+import { Hammer, RefreshCw, Sun, ArrowRight, Clock, Shield, Star, Camera } from 'lucide-react';
 import { openGlassBillerForm } from './GlassBillerForm';
 
 const services = [
@@ -9,25 +9,37 @@ const services = [
     icon: Hammer,
     title: 'Rock Chip Repair',
     description: 'We have been in business for over 9 years and have been providing automotive glass repair and replacement. Get your car\'s any window fixed in a flash!',
-    features: ['Quick Service', 'Mobile Available', 'Warranty Included'],
-    color: 'from-blue-500 to-cyan-500',
+    features: ['Quick Service', 'Mobile Available', 'Quality Guaranteed'],
+    color: 'from-primary-light to-primary',
     image: '/images/rock-chip.jpg',
+    link: '/services/rock-chip-repair',
   },
   {
     icon: RefreshCw,
     title: 'Windshield Replacement',
     description: 'Sometimes it\'s difficult to find the right company for your windshield replacement. We offer the best services with the most competitive prices.',
-    features: ['24/7 Mobile Service', 'Quick Turnaround', 'All Makes & Models'],
-    color: 'from-purple-500 to-pink-500',
+    features: ['Mobile Service', 'Quick Turnaround', 'All Makes & Models'],
+    color: 'from-primary to-primary-dark',
     image: '/images/windshield.jpg',
+    link: '/services/windshield-replacement',
   },
   {
     icon: Sun,
     title: 'Window Tinting',
     description: 'Tinting of Automotive is an art that demands perfection and precision. The experts at VIP Glass work hard to provide the highest quality product.',
-    features: ['UV Protection', 'Lifetime Warranty', 'Expert Installation'],
-    color: 'from-orange-500 to-red-500',
+    features: ['UV Protection', 'Premium Quality', 'Expert Installation'],
+    color: 'from-primary-dark to-primary',
     image: '/images/tinting.jpg',
+    link: '/services/glass-tinting',
+  },
+  {
+    icon: Camera,
+    title: 'ADAS Calibration',
+    description: 'Professional Advanced Driver Assistance Systems calibration ensuring your vehicle\'s safety features function properly after windshield replacement.',
+    features: ['Static & Dynamic', 'OEM Approved', 'All Vehicles'],
+    color: 'from-primary to-primary-light',
+    image: '/images/hero4.jpg',
+    link: '/services/adas-calibration',
   },
 ];
 
@@ -77,7 +89,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {services.map((service, index) => (
             <motion.div
               key={index}
@@ -87,12 +99,12 @@ export default function ServicesSection() {
               viewport={{ once: true }}
               className="group"
             >
-              <div className="relative h-full bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100">
+              <div className="relative h-full bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 flex flex-col">
                 {/* Top gradient bar */}
                 <div className={`h-2 bg-gradient-to-r ${service.color}`}></div>
 
                 {/* Card content */}
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-grow">
                   {/* Icon */}
                   <motion.div
                     whileHover={{ rotate: 360, scale: 1.1 }}
@@ -108,7 +120,7 @@ export default function ServicesSection() {
                   </h3>
 
                   {/* Description */}
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-6 leading-relaxed flex-grow">
                     {service.description}
                   </p>
 
@@ -127,14 +139,14 @@ export default function ServicesSection() {
                   </div>
 
                   {/* CTA Button */}
-                  <motion.button
-                    onClick={() => openGlassBillerForm()}
+                  <motion.a
+                    href={service.link}
                     whileHover={{ x: 5 }}
-                    className="inline-flex items-center gap-2 text-primary font-semibold group-hover:gap-4 transition-all cursor-pointer"
+                    className="inline-flex items-center gap-2 text-primary font-semibold group-hover:gap-4 transition-all"
                   >
-                    Get Quote
+                    Learn More
                     <ArrowRight className="w-5 h-5" />
-                  </motion.button>
+                  </motion.a>
                 </div>
 
                 {/* Decorative elements */}
@@ -156,9 +168,9 @@ export default function ServicesSection() {
           >
             <div className="relative z-10">
               <Clock className="w-12 h-12 mb-4 opacity-90" />
-              <h3 className="text-2xl font-bold mb-2">24/7 Mobile Service</h3>
+              <h3 className="text-2xl font-bold mb-2">Mobile Service</h3>
               <p className="text-white/90 mb-4">
-                We come to you! Our mobile service is available round the clock to ensure you get back on the road quickly and safely.
+                We come to you! Our mobile service ensures you get back on the road quickly and safely at your convenience.
               </p>
               <a href="tel:+14032852000" className="inline-flex items-center gap-2 bg-white/20 hover:bg-white/30 px-6 py-3 rounded-full font-semibold transition-all backdrop-blur-sm">
                 Call Now

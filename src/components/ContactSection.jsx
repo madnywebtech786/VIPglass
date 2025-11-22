@@ -8,30 +8,26 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Call Us',
-    details: '+1 (403) 285-2000',
-    subtext: '24/7 Emergency Service',
+    details: '(403) 285-2000',
+    subtext: 'Quick Response Service',
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    icon: Mail,
-    title: 'Email Us',
-    details: 'info@vipglass.ca',
-    subtext: 'Quick Response Time',
+    icon: MapPin,
+    title: 'Address',
+    details: '10960 42 St NE #235',
+    subtext: 'Calgary, AB T3N 2B8',
     gradient: 'from-purple-500 to-pink-500',
   },
   {
-    icon: MapPin,
-    title: 'Visit Us',
-    details: 'Calgary, AB, Canada',
-    subtext: 'Serving All Areas',
-    gradient: 'from-orange-500 to-red-500',
-  },
-  {
     icon: Clock,
-    title: 'Working Hours',
-    details: 'Mon - Sun: 24/7',
-    subtext: 'Always Available',
-    gradient: 'from-green-500 to-emerald-500',
+    title: 'Business Hours',
+    gradient: 'from-orange-500 to-red-500',
+    hours: [
+      { days: 'Monday - Friday', time: '9 a.m.–5:30 p.m.' },
+      { days: 'Saturday', time: '9 a.m.–3 p.m.' },
+      { days: 'Sunday', time: '10 a.m.–3 p.m.' },
+    ],
   },
 ];
 
@@ -97,7 +93,7 @@ export default function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
           viewport={{ once: true }}
-          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16"
         >
           {contactInfo.map((info, index) => (
             <motion.div
@@ -116,8 +112,23 @@ export default function ContactSection() {
 
               {/* Content */}
               <h3 className="text-lg font-bold text-gray-900 mb-2">{info.title}</h3>
-              <p className="text-primary font-semibold mb-1">{info.details}</p>
-              <p className="text-gray-600 text-sm">{info.subtext}</p>
+
+              {/* Conditional rendering for hours vs regular info */}
+              {info.hours ? (
+                <div className="space-y-2">
+                  {info.hours.map((schedule, idx) => (
+                    <div key={idx} className="flex justify-between items-center text-sm">
+                      <span className="text-gray-700 font-medium">{schedule.days}</span>
+                      <span className="text-primary font-semibold">{schedule.time}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <>
+                  <p className="text-primary font-semibold mb-1">{info.details}</p>
+                  <p className="text-gray-600 text-sm">{info.subtext}</p>
+                </>
+              )}
 
               {/* Decorative element */}
               <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${info.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left rounded-b-2xl`}></div>
@@ -265,7 +276,7 @@ export default function ContactSection() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <span>24/7 Mobile Service</span>
+                    <span>Mobile Service Available</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">

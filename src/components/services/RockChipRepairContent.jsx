@@ -27,28 +27,28 @@ const benefits = [
     title: "Affordable at $25",
     description:
       "Industry-leading price for rock chip repair. Save hundreds compared to full windshield replacement.",
-    gradient: "from-green-500 to-emerald-500",
+    gradient: "from-primary-light to-primary",
   },
   {
     icon: Clock,
     title: "Under 30 Minutes",
     description:
       "Quick, efficient service with no appointment needed. Walk in and drive out with a repaired windshield.",
-    gradient: "from-blue-500 to-cyan-500",
+    gradient: "from-primary to-primary-dark",
   },
   {
     icon: Shield,
     title: "Prevents Spreading",
     description:
       "Stop small chips from becoming large, expensive cracks. Protect your windshield's structural integrity.",
-    gradient: "from-purple-500 to-pink-500",
+    gradient: "from-primary-dark to-primary",
   },
   {
     icon: BadgeCheck,
     title: "Insurance Approved",
     description:
       "Most insurance policies cover rock chip repair with no deductible. We handle all the paperwork.",
-    gradient: "from-orange-500 to-red-500",
+    gradient: "from-primary to-primary-light",
   },
 ];
 

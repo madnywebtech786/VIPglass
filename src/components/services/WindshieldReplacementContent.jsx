@@ -24,25 +24,25 @@ const benefits = [
     icon: Shield,
     title: 'Safety First',
     description: 'Restore your vehicle\'s structural integrity and protect yourself and passengers from potential hazards.',
-    gradient: 'from-blue-500 to-cyan-500',
+    gradient: 'from-primary-light to-primary',
   },
   {
     icon: Eye,
     title: 'Crystal Clear Vision',
     description: 'Ensure optimal visibility with professional installation and high-quality OEM glass materials.',
-    gradient: 'from-purple-500 to-pink-500',
+    gradient: 'from-primary to-primary-dark',
   },
   {
     icon: Clock,
     title: 'Fast Service',
     description: 'Same-day windshield replacement available. Get back on the road quickly with our efficient service.',
-    gradient: 'from-orange-500 to-red-500',
+    gradient: 'from-primary-dark to-primary',
   },
   {
     icon: Award,
     title: 'Insurance Approved',
     description: 'We work directly with your insurance provider. Most replacements covered with zero deductible.',
-    gradient: 'from-green-500 to-emerald-500',
+    gradient: 'from-primary to-primary-light',
   },
 ];
 
@@ -173,8 +173,8 @@ export default function WindshieldReplacementContent() {
                   <div className="text-xs text-gray-300">Happy Clients</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
-                  <div className="text-3xl font-bold text-primary mb-1">24/7</div>
-                  <div className="text-xs text-gray-300">Support</div>
+                  <div className="text-3xl font-bold text-primary mb-1">4.9</div>
+                  <div className="text-xs text-gray-300">Star Rating</div>
                 </div>
               </div>
 
@@ -729,7 +729,7 @@ export default function WindshieldReplacementContent() {
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                   <Shield className="w-8 h-8 text-white mx-auto mb-3" />
-                  <div className="text-white font-bold">Lifetime Warranty</div>
+                  <div className="text-white font-bold">Quality Guarantee</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                   <Award className="w-8 h-8 text-white mx-auto mb-3" />

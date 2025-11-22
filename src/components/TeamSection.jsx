@@ -126,11 +126,6 @@ export default function TeamSection() {
                   {/* Gradient overlay */}
                   <div className={`absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent`}></div>
 
-                  {/* Experience badge on image */}
-                  <div className="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
-                    {member.experience}
-                  </div>
-
                   {/* Icon badge on image */}
                   <div className={`absolute bottom-4 left-4 w-12 h-12 bg-gradient-to-br ${member.gradient} rounded-xl flex items-center justify-center shadow-lg`}>
                     <member.icon className="w-6 h-6 text-white" />

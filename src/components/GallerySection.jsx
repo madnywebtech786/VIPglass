@@ -165,7 +165,7 @@ export default function GallerySection() {
           {[
             { value: "5000+", label: "Projects Completed" },
             { value: "100%", label: "Quality Assured" },
-            { value: "24/7", label: "Service Available" },
+            { value: "4.9", label: "Star Ratings" },
             { value: "9+", label: "Years Experience" },
           ].map((stat, index) => (
             <div

@@ -27,25 +27,25 @@ const benefits = [
     icon: Sun,
     title: 'UV Protection',
     description: 'Block up to 99% of harmful UV rays, protecting your skin and preventing interior fading and cracking.',
-    gradient: 'from-yellow-500 to-orange-500',
+    gradient: 'from-primary-light to-primary',
   },
   {
     icon: Thermometer,
     title: 'Heat Reduction',
     description: 'Reduce interior heat by up to 60%, keeping your car cooler and reducing AC usage for better fuel efficiency.',
-    gradient: 'from-red-500 to-pink-500',
+    gradient: 'from-primary to-primary-dark',
   },
   {
     icon: Eye,
     title: 'Enhanced Privacy',
     description: 'Protect your privacy and valuables with professional tinting that obscures interior view from outside.',
-    gradient: 'from-purple-500 to-indigo-500',
+    gradient: 'from-primary-dark to-primary',
   },
   {
     icon: Palette,
     title: 'Aesthetic Appeal',
     description: 'Transform your vehicle\'s appearance with sleek, professional tinting that adds style and sophistication.',
-    gradient: 'from-blue-500 to-cyan-500',
+    gradient: 'from-primary to-primary-light',
   },
 ];
 
@@ -73,7 +73,7 @@ const tintTypes = [
       'Crystal clear visibility',
       'No signal interference',
       'Superior glare reduction',
-      'Lifetime warranty available'
+      'Quality guarantee included'
     ],
     gradient: 'from-primary to-primary-dark',
     recommended: true,
@@ -240,7 +240,7 @@ export default function GlassTintingContent() {
             >
               <div className="relative h-[500px] rounded-3xl overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <Image
-                  src="/images/glasstinting.jpg"
+                  src="/images/glasstinting.jpeg"
                   alt="Professional Car Window Tinting Service"
                   fill
                   className="object-cover"
@@ -407,7 +407,7 @@ export default function GlassTintingContent() {
                   <div className="relative rounded-3xl overflow-hidden shadow-2xl group mb-6">
                     <div className="relative h-[400px]">
                       <Image
-                        src="/images/glasstinting.jpg"
+                        src="/images/glasstinting.jpeg"
                         alt="Professional Window Tinting Process"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-700"

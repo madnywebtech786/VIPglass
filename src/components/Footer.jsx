@@ -28,8 +28,6 @@ const footerLinks = {
 const socialLinks = [
   { icon: Facebook, href: '#', label: 'Facebook', color: 'hover:bg-blue-600' },
   { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:bg-pink-600' },
-  { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:bg-sky-500' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:bg-blue-700' },
 ];
 
 export default function Footer() {
@@ -81,36 +79,7 @@ export default function Footer() {
               We provide professional windshield repair, replacement, tinting, and ceramic coating services.
             </p>
 
-            {/* Contact Info */}
-            <div className="space-y-3">
-              <a href="tel:+14032852000" className="flex items-center gap-3 text-gray-400 hover:text-primary transition-colors group">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                  <Phone className="w-5 h-5 text-primary" />
-                </div>
-                <span>+1 (403) 285-2000</span>
-              </a>
-
-              <a href="mailto:info@vipautoglass.com" className="flex items-center gap-3 text-gray-400 hover:text-primary transition-colors group">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                  <Mail className="w-5 h-5 text-primary" />
-                </div>
-                <span>info@vipautoglass.com</span>
-              </a>
-
-              <div className="flex items-center gap-3 text-gray-400">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <MapPin className="w-5 h-5 text-primary" />
-                </div>
-                <span>Calgary, AB, Canada</span>
-              </div>
-
-              <div className="flex items-center gap-3 text-gray-400">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <Clock className="w-5 h-5 text-primary" />
-                </div>
-                <span>24/7 Service Available</span>
-              </div>
-            </div>
+       
           </motion.div>
 
           {/* Services */}
@@ -159,26 +128,34 @@ export default function Footer() {
             </ul>
           </motion.div>
 
-          {/* Legal */}
+          {/* Contact Info */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-xl font-bold mb-6 text-white">Legal</h4>
-            <ul className="space-y-3 mb-6">
-              {footerLinks.legal.map((link, index) => (
-                <li key={index}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-primary transition-colors inline-flex items-center gap-2 group"
-                  >
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full group-hover:scale-150 transition-transform"></span>
-                    {link.name}
-                  </a>
-                </li>
-              ))}
+            <h4 className="text-xl font-bold mb-6 text-white">Contact Info</h4>
+            <ul className="space-y-4 mb-6">
+              <li className="text-gray-400">
+                <div className="font-semibold text-white mb-1">Phone:</div>
+                <a href="tel:+14032852000" className="hover:text-primary transition-colors">
+                  (403) 285-2000
+                </a>
+              </li>
+              <li className="text-gray-400">
+                <div className="font-semibold text-white mb-1">Address:</div>
+                <div>10960 42 St NE #235</div>
+                <div>Calgary, AB T3N 2B8</div>
+              </li>
+              <li className="text-gray-400">
+                <div className="font-semibold text-white mb-1">Hours:</div>
+                <div className="text-sm space-y-1">
+                  <div>Mon-Fri: 9am-5:30pm</div>
+                  <div>Sat: 9am-3pm</div>
+                  <div>Sun: 10am-3pm</div>
+                </div>
+              </li>
             </ul>
 
             {/* Social Links */}

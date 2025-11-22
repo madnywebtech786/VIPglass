@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const navLinks = [
   { name: "Home", href: "/#hero" },
-  { name: "About", href: "#about" },
+  { name: "About", href: "/about" },
   {
     name: "Services",
     href: "#services",
@@ -22,10 +22,8 @@ const navLinks = [
       { name: "ADAS Calibration", href: "/services/adas-calibration" },
     ],
   },
-  { name: "Gallery", href: "/#gallery" },
-  { name: "Testimonials", href: "/#testimonials" },
-  { name: "Team", href: "/#team" },
-  { name: "Contact", href: "#contact" },
+  { name: "Gallery", href: "/gallery" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -214,14 +212,24 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* CTA Button */}
+          {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-4">
+            <button
+              onClick={() => openGlassBillerForm()}
+              className={`group inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 border-2 ${
+                scrolled
+                  ? "border-primary bg-white text-primary hover:bg-primary hover:text-white"
+                  : "border-white text-white hover:bg-white hover:text-primary"
+              }`}
+            >
+              <span>Get Quote</span>
+            </button>
             <a
               href="tel:+14032852000"
               className={`group inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl ${
                 scrolled
-                  ? "bg-white hover:bg-gray-100 text-primary hover:text-primary-dark"
-                  : "bg-primary hover:bg-primary-dark text-white hover:shadow-primary/30"
+                  ? "bg-primary hover:bg-primary-dark text-white"
+                  : "bg-white hover:bg-gray-100 text-primary hover:text-primary-dark"
               }`}
             >
               <Phone className="w-4 h-4 group-hover:rotate-12 transition-transform" />
@@ -423,7 +431,7 @@ export default function Navbar() {
                   +1 (403) 285-2000
                 </span>
                 <span className="hidden md:block">
-                  24/7 Mobile Service Available
+                  Mobile Service Available
                 </span>
               </div>
               <div className="flex items-center gap-4">

@@ -11,35 +11,30 @@ import 'swiper/css/navigation';
 const testimonials = [
   {
     name: 'John Anderson',
-    role: 'Business Owner',
     image: '/images/client1.jpg',
     rating: 5,
     text: 'VIP Auto Glass provided exceptional service! They replaced my windshield within hours, and the quality is outstanding. Their mobile service made it so convenient. Highly recommended!',
   },
   {
     name: 'Sarah Mitchell',
-    role: 'Marketing Director',
     image: '/images/client2.jpg',
     rating: 5,
     text: 'I was impressed by their professionalism and attention to detail. The team arrived on time, completed the work efficiently, and the pricing was very competitive. Will definitely use them again!',
   },
   {
     name: 'Michael Chen',
-    role: 'Software Engineer',
     image: '/images/client3.jpg',
     rating: 5,
     text: 'Amazing experience from start to finish! The rock chip repair was done perfectly, and they even cleaned my entire windshield. Great customer service and quality work.',
   },
   {
     name: 'Emily Rodriguez',
-    role: 'Real Estate Agent',
     image: '/images/client4.jpg',
     rating: 5,
     text: 'Best auto glass service in Calgary! Their window tinting looks fantastic and the ceramic coating has made a huge difference. The team is knowledgeable and friendly.',
   },
   {
     name: 'David Thompson',
-    role: 'Entrepreneur',
     image: '/images/client5.jpg',
     rating: 5,
     text: 'I\'ve used VIP Auto Glass multiple times for different vehicles. Consistently excellent service, fair prices, and quality workmanship. They truly care about customer satisfaction.',
@@ -171,7 +166,6 @@ export default function TestimonialSection() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 text-lg">{testimonial.name}</h4>
-                        <p className="text-gray-600 text-sm">{testimonial.role}</p>
                       </div>
                     </div>
 
@@ -199,31 +193,6 @@ export default function TestimonialSection() {
           </div>
         </motion.div>
 
-        {/* Trust badges */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6, duration: 0.6 }}
-          viewport={{ once: true }}
-          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6"
-        >
-          {[
-            { Icon: Star, text: '5-Star Rated', gradient: 'from-yellow-500 to-orange-500' },
-            { Icon: BadgeCheck, text: 'Certified Experts', gradient: 'from-blue-500 to-cyan-500' },
-            { Icon: Trophy, text: 'Award Winning', gradient: 'from-purple-500 to-pink-500' },
-            { Icon: Sparkles, text: '100% Satisfaction', gradient: 'from-green-500 to-emerald-500' },
-          ].map((badge, index) => (
-            <div
-              key={index}
-              className="group bg-white rounded-2xl p-6 text-center border border-gray-100 hover:border-primary/30 transition-all hover:shadow-lg"
-            >
-              <div className={`w-14 h-14 mx-auto mb-3 bg-gradient-to-br ${badge.gradient} rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg`}>
-                <badge.Icon className="w-7 h-7 text-white" />
-              </div>
-              <div className="text-gray-900 font-semibold">{badge.text}</div>
-            </div>
-          ))}
-        </motion.div>
       </div>
     </section>
   );

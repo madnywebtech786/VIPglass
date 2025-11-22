@@ -1,14 +1,14 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Award, Users, Clock, TrendingUp } from 'lucide-react';
+import { Award, Users, Clock, Star } from 'lucide-react';
 import { openGlassBillerForm } from './GlassBillerForm';
 
 const stats = [
-  { icon: Clock, value: '9+', label: 'Years Experience', color: 'from-blue-500 to-cyan-500' },
-  { icon: Users, value: '5000+', label: 'Happy Clients', color: 'from-purple-500 to-pink-500' },
-  { icon: Award, value: '100%', label: 'Satisfaction Rate', color: 'from-orange-500 to-red-500' },
-  { icon: TrendingUp, value: '24/7', label: 'Support Available', color: 'from-green-500 to-emerald-500' },
+  { icon: Clock, value: '9+', label: 'Years Experience', color: 'from-primary-light to-primary' },
+  { icon: Users, value: '5000+', label: 'Happy Clients', color: 'from-primary-light to-primary' },
+  { icon: Award, value: '100%', label: 'Satisfaction Rate', color: 'from-primary-light to-primary' },
+  { icon: Star, value: '4.9', label: 'Star Ratings', color: 'from-primary-light to-primary' },
 ];
 
 export default function AboutSection() {

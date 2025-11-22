@@ -28,25 +28,25 @@ const benefits = [
     icon: Shield,
     title: 'Enhanced Safety',
     description: 'Proper calibration ensures collision avoidance, lane keeping, and other safety features work correctly to protect you and your passengers.',
-    gradient: 'from-red-500 to-pink-500',
+    gradient: 'from-primary-light to-primary',
   },
   {
     icon: Target,
     title: 'Precise Accuracy',
     description: 'Guarantees the accuracy of adaptive cruise control, blind spot detection, and automated emergency braking systems.',
-    gradient: 'from-blue-500 to-cyan-500',
+    gradient: 'from-primary to-primary-dark',
   },
   {
     icon: Award,
     title: 'Manufacturer-Approved',
     description: 'Our calibration methods adhere strictly to manufacturer specifications, ensuring your systems work as originally intended.',
-    gradient: 'from-green-500 to-emerald-500',
+    gradient: 'from-primary-dark to-primary',
   },
   {
     icon: Eye,
     title: 'Peace of Mind',
     description: 'Knowing your ADAS systems are calibrated correctly provides confidence and peace of mind every time you drive.',
-    gradient: 'from-purple-500 to-indigo-500',
+    gradient: 'from-primary to-primary-light',
   },
 ];
 
@@ -278,7 +278,7 @@ export default function ADASCalibrationContent() {
             >
               <div className="relative h-[500px] rounded-3xl overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <Image
-                  src="/images/adas.jpg"
+                  src="/images/adas.jpeg"
                   alt="ADAS Calibration Service"
                   fill
                   className="object-cover"
@@ -426,7 +426,7 @@ export default function ADASCalibrationContent() {
                   <div className="relative rounded-3xl overflow-hidden shadow-2xl group mb-6">
                     <div className="relative h-[400px]">
                       <Image
-                        src="/images/adas.jpg"
+                        src="/images/adas.jpeg"
                         alt="ADAS Calibration Equipment"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-700"

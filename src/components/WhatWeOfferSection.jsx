@@ -20,7 +20,7 @@ const offerings = [
   {
     icon: Headphones,
     title: 'Customer Support',
-    description: '24/7 support to assist you every step of the way. Your satisfaction is our priority.',
+    description: 'Quick response support to assist you every step of the way. Your satisfaction is our priority.',
     gradient: 'from-orange-500 to-red-500',
   },
   {

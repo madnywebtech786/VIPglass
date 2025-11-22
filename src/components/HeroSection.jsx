@@ -16,7 +16,7 @@ const slides = [
     subtitle: 'VIP Auto Glass',
     description: 'Serving Calgary for over 9+ years with excellence and trust',
     image: '/images/hero2.jpeg',
-    features: ['Mobile Service', '24/7 Support', 'Certified Experts']
+    features: ['Mobile Service', 'Quick Response', 'Certified Experts']
   },
   {
     title: 'Windshield',
@@ -32,7 +32,7 @@ const slides = [
     subtitle: 'Premium Protection',
     description: 'Advanced ceramic coating and professional tinting services',
     image: '/images/hero3.jpeg',
-    features: ['UV Protection', 'Lifetime Warranty', 'Expert Installation']
+    features: ['UV Protection', 'Premium Quality', 'Expert Installation']
   },
   {
     title: 'ADAS',
