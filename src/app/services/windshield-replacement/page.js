@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: "Windshield Replacement Calgary | Professional Auto Glass Replacement | VIP Auto Glass",
-  description: "Expert windshield replacement in Calgary. Fast, affordable, and reliable service. Insurance claims accepted. Mobile service available. Book your windshield replacement today!",
+  description: "Expert windshield replacement in Calgary. Fast, affordable, and reliable service. Insurance claims accepted. 1-year workmanship guarantee. Book your windshield replacement today!",
   keywords: "windshield replacement Calgary, auto glass replacement, cracked windshield repair, windshield installation Calgary, mobile windshield replacement, insurance windshield replacement",
   openGraph: {
     title: "Professional Windshield Replacement Services in Calgary",

@@ -9,7 +9,7 @@ const services = [
     icon: Hammer,
     title: 'Rock Chip Repair',
     description: 'We have been in business for over 9 years and have been providing automotive glass repair and replacement. Get your car\'s any window fixed in a flash!',
-    features: ['Quick Service', 'Mobile Available', 'Quality Guaranteed'],
+    features: ['Quick Service', 'On-Site Available', 'Quality Guaranteed'],
     color: 'from-primary-light to-primary',
     image: '/images/rock-chip.jpg',
     link: '/services/rock-chip-repair',
@@ -18,7 +18,7 @@ const services = [
     icon: RefreshCw,
     title: 'Windshield Replacement',
     description: 'Sometimes it\'s difficult to find the right company for your windshield replacement. We offer the best services with the most competitive prices.',
-    features: ['Mobile Service', 'Quick Turnaround', 'All Makes & Models'],
+    features: ['On-Site Service', 'Quick Turnaround', 'All Makes & Models'],
     color: 'from-primary to-primary-dark',
     image: '/images/windshield.jpg',
     link: '/services/windshield-replacement',
@@ -168,9 +168,9 @@ export default function ServicesSection() {
           >
             <div className="relative z-10">
               <Clock className="w-12 h-12 mb-4 opacity-90" />
-              <h3 className="text-2xl font-bold mb-2">Mobile Service</h3>
+              <h3 className="text-2xl font-bold mb-2">Professional Service</h3>
               <p className="text-white/90 mb-4">
-                We come to you! Our mobile service ensures you get back on the road quickly and safely at your convenience.
+                Expert auto glass service throughout Calgary with flexible scheduling to ensure you get back on the road quickly and safely.
               </p>
               <a href="tel:+14032852000" className="inline-flex items-center gap-2 bg-white/20 hover:bg-white/30 px-6 py-3 rounded-full font-semibold transition-all backdrop-blur-sm">
                 Call Now
@@ -192,7 +192,7 @@ export default function ServicesSection() {
               <Shield className="w-12 h-12 mb-4 text-primary" />
               <h3 className="text-2xl font-bold mb-2">Satisfaction Guarantee</h3>
               <p className="text-gray-300 mb-4">
-                Your peace of mind is backed by our Most Trusted Auto Glass Repair Guarantee. Quality workmanship, every time.
+                Your peace of mind is backed by our 1-Year Workmanship Guarantee. Quality workmanship, every time.
               </p>
               <button onClick={() => openGlassBillerForm()} className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark px-6 py-3 rounded-full font-semibold transition-all cursor-pointer">
                 Get Free Quote

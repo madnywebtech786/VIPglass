@@ -23,9 +23,9 @@ const contactMethods = [
   {
     icon: Mail,
     title: 'Email',
-    primary: 'info@vipautoglass.ca',
+    primary: 'info@vipglass.ca',
     secondary: 'We respond within 24 hours',
-    link: 'mailto:info@vipautoglass.ca',
+    link: 'mailto:info@vipglass.ca',
     gradient: 'from-primary-dark to-primary',
   },
 ];
@@ -169,7 +169,7 @@ export default function ContactInfoSection() {
 
                 <div className="mt-6 p-4 bg-primary/10 backdrop-blur-sm border border-primary/20 rounded-xl">
                   <p className="text-white text-sm">
-                    <span className="font-semibold">Note:</span> Mobile service available outside regular hours by appointment
+                    <span className="font-semibold">Note:</span> Flexible scheduling available outside regular hours by appointment
                   </p>
                 </div>
               </div>

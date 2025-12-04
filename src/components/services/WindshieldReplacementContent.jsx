@@ -103,7 +103,7 @@ const faqs = [
   },
   {
     question: 'How long does windshield replacement take?',
-    answer: 'A professional windshield replacement typically takes 1-2 hours from start to finish. However, the adhesive requires additional curing time before you can safely drive your vehicle. We recommend waiting at least 1-2 hours after installation before driving, though this can vary based on weather conditions and adhesive type. Our technicians will provide specific guidance based on your situation. We offer mobile service, so you can have your windshield replaced at your home or office, allowing you to continue with your day while the adhesive cures.',
+    answer: 'A professional windshield replacement typically takes 1-2 hours from start to finish. However, the adhesive requires additional curing time before you can safely drive your vehicle. We recommend waiting at least 1-2 hours after installation before driving, though this can vary based on weather conditions and adhesive type. Our technicians will provide specific guidance based on your situation. We offer flexible scheduling options to minimize disruption to your day, with convenient appointment times available throughout Calgary.',
   },
   {
     question: 'Do you use OEM (Original Equipment Manufacturer) glass?',
@@ -407,7 +407,7 @@ export default function WindshieldReplacementContent() {
                         <div className="space-y-3">
                           <div className="flex items-center gap-3 text-sm">
                             <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
-                            <span>Same-day mobile service throughout Calgary</span>
+                            <span>Same-day service available throughout Calgary</span>
                           </div>
                           <div className="flex items-center gap-3 text-sm">
                             <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />

@@ -42,8 +42,8 @@ const reasons = [
   },
   {
     icon: Phone,
-    title: 'Mobile Service',
-    description: 'We come to you! Convenient on-site service at your home or workplace.',
+    title: 'Professional Service',
+    description: 'Convenient and reliable service throughout Calgary with flexible scheduling.',
     gradient: 'from-primary-dark to-primary',
   },
   {

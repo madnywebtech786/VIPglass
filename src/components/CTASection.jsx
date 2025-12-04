@@ -51,8 +51,8 @@ export default function CTASection() {
               viewport={{ once: true }}
               className="text-xl text-white/90 mb-12 max-w-3xl mx-auto"
             >
-              Experience the VIP difference with our mobile auto glass repair service.
-              We come to you with fast, professional service at competitive prices.
+              Experience the VIP difference with our professional auto glass repair service.
+              Fast, reliable service at competitive prices with our 1-year workmanship guarantee.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -97,7 +97,7 @@ export default function CTASection() {
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Fast Service</h3>
               <p className="text-white/80">
-                Quick response mobile service to get you back on the road quickly
+                Quick response and expert service to get you back on the road quickly
               </p>
             </div>
 
@@ -105,9 +105,9 @@ export default function CTASection() {
               <div className="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <MapPin className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Mobile Service</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Professional Service</h3>
               <p className="text-white/80">
-                We come to your location anywhere in Calgary and surrounding areas
+                Expert auto glass service throughout Calgary and surrounding areas
               </p>
             </div>
 

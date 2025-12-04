@@ -13,7 +13,7 @@ const testimonials = [
     name: 'John Anderson',
     image: '/images/client1.jpg',
     rating: 5,
-    text: 'VIP Auto Glass provided exceptional service! They replaced my windshield within hours, and the quality is outstanding. Their mobile service made it so convenient. Highly recommended!',
+    text: 'VIP Auto Glass provided exceptional service! They replaced my windshield within hours, and the quality is outstanding. Their professional service and 1-year workmanship guarantee made it so convenient. Highly recommended!',
   },
   {
     name: 'Sarah Mitchell',

@@ -16,7 +16,7 @@ const slides = [
     subtitle: 'VIP Auto Glass',
     description: 'Serving Calgary for over 9+ years with excellence and trust',
     image: '/images/hero2.jpeg',
-    features: ['Mobile Service', 'Quick Response', 'Certified Experts']
+    features: ['On-Site Service', 'Quick Response', 'Certified Experts']
   },
   {
     title: 'Windshield',
@@ -39,7 +39,7 @@ const slides = [
     highlight: 'Calibration',
     subtitle: 'Advanced Technology',
     description: 'Professional ADAS calibration for your vehicle\'s safety systems',
-    image: '/images/hero4.jpg',
+    image: '/images/hero4.png',
     features: ['Static & Dynamic', 'OEM Approved', 'All Vehicles']
   }
 ];

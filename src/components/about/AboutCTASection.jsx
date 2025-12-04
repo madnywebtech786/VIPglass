@@ -125,7 +125,7 @@ export default function AboutCTASection() {
               </div>
               <div className="flex items-center gap-2">
                 <Shield className="w-4 h-4 text-primary-light" />
-                <span>Mobile Service Available</span>
+                <span>Professional Service Available</span>
               </div>
               <div className="flex items-center gap-2">
                 <Shield className="w-4 h-4 text-primary-light" />

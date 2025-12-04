@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "VIP Auto Glass Calgary | Windshield Repair & Replacement | Mobile Service 24/7",
-  description: "Calgary's trusted auto glass experts for 9+ years. Professional windshield repair & replacement, rock chip repair, window tinting, ceramic coating. Same-day mobile service available. Free quotes. Call now!",
+  title: "VIP Auto Glass Calgary | Windshield Repair & Replacement | 1-Year Workmanship Guarantee",
+  description: "Calgary's trusted auto glass experts for 9+ years. Professional windshield repair & replacement, rock chip repair, window tinting, ceramic coating. 1-year workmanship guarantee on all services. Free quotes. Call now!",
   keywords: "auto glass Calgary, windshield repair Calgary, windshield replacement Calgary, mobile auto glass, rock chip repair, window tinting Calgary, ceramic coating, auto glass near me, car window repair, emergency windshield repair, VIP Auto Glass",
   authors: [{ name: "VIP Auto Glass" }],
   creator: "VIP Auto Glass",
@@ -38,7 +38,7 @@ export const metadata = {
     url: "https://vipautoglass.ca",
     siteName: "VIP Auto Glass Calgary",
     title: "VIP Auto Glass Calgary | Expert Windshield Repair & Replacement",
-    description: "Calgary's #1 auto glass repair service. 9+ years of excellence. Professional windshield repair, replacement, window tinting & ceramic coating. 24/7 mobile service. Free quotes!",
+    description: "Calgary's #1 auto glass repair service. 9+ years of excellence. Professional windshield repair, replacement, window tinting & ceramic coating. 1-year workmanship guarantee. Free quotes!",
     images: [
       {
         url: "/images/vip_logo.png",
@@ -51,7 +51,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "VIP Auto Glass Calgary | Windshield Repair & Replacement",
-    description: "Calgary's trusted auto glass experts. Professional windshield repair & replacement. 24/7 mobile service. Free quotes!",
+    description: "Calgary's trusted auto glass experts. Professional windshield repair & replacement. 1-year workmanship guarantee. Free quotes!",
     images: ["/images/vip_logo.png"],
     creator: "@vipautoglass",
   },

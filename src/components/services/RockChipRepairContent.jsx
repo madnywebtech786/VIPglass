@@ -24,7 +24,7 @@ import {
 const benefits = [
   {
     icon: DollarSign,
-    title: "Affordable at $25",
+    title: "Affordable at $29.99",
     description:
       "Industry-leading price for rock chip repair. Save hundreds compared to full windshield replacement.",
     gradient: "from-primary-light to-primary",
@@ -133,9 +133,9 @@ const faqs = [
       "Most rock chips can be repaired if they're smaller than a quarter (about 1 inch in diameter) and not directly in the driver's line of sight. The chip must also be on the outer layer of glass and not too close to the windshield edge. Our expert technicians will assess your specific damage and provide an honest recommendation. If the chip is too large, has multiple cracks extending beyond 3 inches, or compromises the windshield's structural integrity, we'll recommend replacement instead. Early repair is key - the sooner you address a chip, the better chance we have of successful repair.",
   },
   {
-    question: "Why does rock chip repair only cost $25?",
+    question: "Why does rock chip repair only cost $29.99?",
     answer:
-      "At VIP Auto Glass, we believe in transparent, affordable pricing that makes windshield safety accessible to everyone. Rock chip repair is a quick, straightforward process that takes under 30 minutes and uses minimal materials - just high-quality resin and UV curing equipment. Unlike full windshield replacement, there's no need for expensive glass or lengthy installation time. Our $25 price reflects the actual cost of the service while ensuring you get expert workmanship. This price point also encourages Calgary drivers to fix small chips immediately, preventing them from spreading into costly cracks that require full replacement. It's a win-win: you save money, and we help keep Calgary drivers safe.",
+      "At VIP Auto Glass, we believe in transparent, affordable pricing that makes windshield safety accessible to everyone. Rock chip repair is a quick, straightforward process that takes under 30 minutes and uses minimal materials - just high-quality resin and UV curing equipment. Unlike full windshield replacement, there's no need for expensive glass or lengthy installation time. Our $29.99 price reflects the actual cost of the service while ensuring you get expert workmanship. This price point also encourages Calgary drivers to fix small chips immediately, preventing them from spreading into costly cracks that require full replacement. It's a win-win: you save money, and we help keep Calgary drivers safe.",
   },
   {
     question: "How long does a rock chip repair last?",
@@ -150,12 +150,12 @@ const faqs = [
   {
     question: "Will my insurance cover rock chip repair?",
     answer:
-      "Most comprehensive auto insurance policies in Canada cover rock chip repair with absolutely no deductible. Insurance companies actually prefer to pay for chip repairs because it prevents much more expensive windshield replacement claims down the road. We work directly with all major insurance providers and can handle the entire claims process for you. Just provide your insurance information, and we'll verify coverage, file the claim, and complete the paperwork. In many cases, you won't pay anything out of pocket. Even if you don't have insurance coverage, our $25 cash price is incredibly affordable and worth the investment to prevent a $300-800 replacement later.",
+      "Most comprehensive auto insurance policies in Canada cover rock chip repair with absolutely no deductible. Insurance companies actually prefer to pay for chip repairs because it prevents much more expensive windshield replacement claims down the road. We work directly with all major insurance providers and can handle the entire claims process for you. Just provide your insurance information, and we'll verify coverage, file the claim, and complete the paperwork. In many cases, you won't pay anything out of pocket. Even if you don't have insurance coverage, our $29.99 cash price is incredibly affordable and worth the investment to prevent a $300-800 replacement later.",
   },
   {
     question: "Can I repair a chip myself with a DIY kit?",
     answer:
-      "While DIY rock chip repair kits are available, we strongly recommend professional repair for several important reasons. First, windshield repair requires specialized equipment, including professional-grade resin and UV curing lights that DIY kits don't include. Second, improper application can actually make the damage worse, cause the chip to spread, or create cloudiness that obstructs your vision. Third, insurance companies may not cover a botched DIY repair, meaning you'll pay out of pocket for eventual replacement. Our professional service costs just $25, takes under 30 minutes, and comes with a warranty. The peace of mind and guaranteed results are well worth the minimal investment.",
+      "While DIY rock chip repair kits are available, we strongly recommend professional repair for several important reasons. First, windshield repair requires specialized equipment, including professional-grade resin and UV curing lights that DIY kits don't include. Second, improper application can actually make the damage worse, cause the chip to spread, or create cloudiness that obstructs your vision. Third, insurance companies may not cover a botched DIY repair, meaning you'll pay out of pocket for eventual replacement. Our professional service costs just $29.99, takes under 30 minutes, and comes with a warranty. The peace of mind and guaranteed results are well worth the minimal investment.",
   },
 ];
 
@@ -202,7 +202,7 @@ export default function RockChipRepairContent() {
               </div>
 
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Rock Chip Repair <span className="text-primary">$25</span>
+                Rock Chip Repair <span className="text-primary">$29.99</span>
               </h1>
 
               <p className="text-xl text-gray-300 mb-8">
@@ -216,7 +216,7 @@ export default function RockChipRepairContent() {
               <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                   <div className="text-3xl font-bold text-primary mb-1">
-                    $25
+                    $29.99
                   </div>
                   <div className="text-xs text-gray-300">Per Chip Repair</div>
                 </div>
@@ -288,7 +288,7 @@ export default function RockChipRepairContent() {
         </div>
       </section>
 
-      {/* Special $25 Pricing Section */}
+      {/* Special $29.99 Pricing Section */}
       <section
         id="pricing"
         className="py-20 bg-gradient-to-b from-white via-gray-50 to-white relative overflow-hidden"
@@ -316,7 +316,7 @@ export default function RockChipRepairContent() {
 
               <h2 className="text-4xl md:text-5xl font-bold  mb-6">
                 ANY <span className="text-primary">ROCK CHIP</span> REPAIR IN
-                JUST <span className="text-primary">$25</span>
+                JUST <span className="text-primary">$29.99</span>
               </h2>
               <p className="text-xl  max-w-3xl mx-auto">
                 With the Best Auto Glass Service in Calgary - Fast, Affordable,
@@ -375,7 +375,7 @@ export default function RockChipRepairContent() {
                   <div className="text-center">
                     <DollarSign className="w-12 h-12 text-green-600 mx-auto mb-4" />
                     <div className="text-4xl font-bold text-green-600 mb-2">
-                      $25
+                      $29.99
                     </div>
                     <div className="text-gray-700 font-semibold mb-2">
                       Per Chip Repair
@@ -490,7 +490,7 @@ export default function RockChipRepairContent() {
                           <div className="flex items-center justify-between">
                             <div>
                               <div className="text-2xl font-bold text-primary">
-                                $25
+                                $29.99
                               </div>
                               <div className="text-sm text-gray-600">
                                 Per Repair
@@ -538,7 +538,7 @@ export default function RockChipRepairContent() {
                             conditions cause chips to spread rapidly.
                             <strong>
                               {" "}
-                              Repair it now for $25, or pay $300-800 for
+                              Repair it now for $29.99, or pay $300-800 for
                               replacement later.
                             </strong>
                           </p>
@@ -644,7 +644,7 @@ export default function RockChipRepairContent() {
                           </div>
                           <div className="flex items-center gap-3 text-sm">
                             <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
-                            <span>Unbeatable $25 price for all chip types</span>
+                            <span>Unbeatable $29.99 price for all chip types</span>
                           </div>
                           <div className="flex items-center gap-3 text-sm">
                             <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
@@ -675,7 +675,7 @@ export default function RockChipRepairContent() {
                     Vs. Replacement Cost
                   </div>
                   <p className="text-sm text-gray-500 mt-2">
-                    Repair for $25 instead of $300-800 replacement
+                    Repair for $29.99 instead of $300-800 replacement
                   </p>
                 </div>
                 <div className="relative md:border-x border-gray-200">
@@ -774,6 +774,154 @@ export default function RockChipRepairContent() {
                 </div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Membership Section */}
+      <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-hidden">
+        {/* Background decorations */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-20 right-20 w-72 h-72 bg-primary rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 left-20 w-96 h-96 bg-primary-light rounded-full blur-3xl animate-pulse"></div>
+        </div>
+
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            {/* Header */}
+            <div className="text-center mb-16">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+              >
+                <span className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm border border-primary/30 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                  <Award className="w-4 h-4" />
+                  Professional Affiliations
+                </span>
+              </motion.div>
+
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2, duration: 0.6 }}
+                viewport={{ once: true }}
+                className="text-4xl md:text-5xl font-bold mb-6 text-white"
+              >
+                Certified & <span className="text-primary">Trusted</span>
+              </motion.h2>
+
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.6 }}
+                viewport={{ once: true }}
+                className="text-xl text-gray-300 max-w-3xl mx-auto"
+              >
+                VIP Auto Glass is proud to be affiliated with leading industry organizations
+              </motion.p>
+            </div>
+
+            {/* Membership Cards */}
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* AGRSS Membership */}
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 hover:bg-white/15 transition-all duration-300"
+              >
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary-light to-primary rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <BadgeCheck className="w-8 h-8 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white mb-3">AGRSS Certified</h3>
+                    <p className="text-gray-300 leading-relaxed mb-4">
+                      Member of the Auto Glass Replacement Safety Standards Council.
+                      Our technicians follow strict industry standards to ensure your
+                      vehicle's structural integrity and your safety.
+                    </p>
+                    <div className="space-y-2">
+                      <div className="flex items-center gap-2 text-sm text-gray-300">
+                        <CheckCircle2 className="w-4 h-4 text-primary" />
+                        <span>Industry-leading safety standards</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-gray-300">
+                        <CheckCircle2 className="w-4 h-4 text-primary" />
+                        <span>Certified installation techniques</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-gray-300">
+                        <CheckCircle2 className="w-4 h-4 text-primary" />
+                        <span>1-Year Workmanship Guarantee</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* IGA Membership */}
+              <motion.div
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 hover:bg-white/15 transition-all duration-300"
+              >
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-dark rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <Award className="w-8 h-8 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white mb-3">IGA Member</h3>
+                    <p className="text-gray-300 leading-relaxed mb-4">
+                      Proud member of the Independent Glass Association. We stay
+                      current with the latest industry advancements, best practices,
+                      and technology to provide you with superior service.
+                    </p>
+                    <div className="space-y-2">
+                      <div className="flex items-center gap-2 text-sm text-gray-300">
+                        <CheckCircle2 className="w-4 h-4 text-primary" />
+                        <span>Continuous professional development</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-gray-300">
+                        <CheckCircle2 className="w-4 h-4 text-primary" />
+                        <span>Latest repair techniques & equipment</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-gray-300">
+                        <CheckCircle2 className="w-4 h-4 text-primary" />
+                        <span>Insurance company approved</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+
+            {/* Bottom Guarantee Banner */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.6 }}
+              viewport={{ once: true }}
+              className="mt-12 bg-gradient-to-r from-primary-light via-primary to-primary-dark rounded-3xl p-8 text-center"
+            >
+              <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+                <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center">
+                  <Shield className="w-8 h-8 text-white" />
+                </div>
+                <div className="text-white">
+                  <div className="text-2xl md:text-3xl font-bold mb-2">
+                    1-Year Workmanship Guarantee
+                  </div>
+                  <div className="text-white/90">
+                    All rock chip repairs backed by our professional warranty
+                  </div>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -954,7 +1102,7 @@ export default function RockChipRepairContent() {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                Ready to Fix That Chip for Just $25?
+                Ready to Fix That Chip for Just $29.99?
               </h2>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
                 No appointment needed! Walk in today and drive out with a
@@ -982,7 +1130,7 @@ export default function RockChipRepairContent() {
               <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                   <DollarSign className="w-8 h-8 text-white mx-auto mb-3" />
-                  <div className="text-white font-bold">Only $25</div>
+                  <div className="text-white font-bold">Only $29.99</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                   <Zap className="w-8 h-8 text-white mx-auto mb-3" />

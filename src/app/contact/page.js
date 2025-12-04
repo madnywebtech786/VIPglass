@@ -8,7 +8,7 @@ import ContactMapSection from '@/components/contact/ContactMapSection';
 
 export const metadata = {
   title: 'Contact Us - VIP Auto Glass Calgary | Get in Touch',
-  description: 'Contact VIP Auto Glass for professional auto glass services in Calgary. Call (403) 285-2000 or visit us at 10960 42 St NE #235. Quick response, mobile service available.',
+  description: 'Contact VIP Auto Glass for professional auto glass services in Calgary. Call (403) 285-2000 or visit us at 10960 42 St NE #235. Quick response, 1-year workmanship guarantee.',
   keywords: 'contact VIP Auto Glass, Calgary auto glass contact, windshield repair Calgary contact, auto glass quote Calgary, VIP Glass phone number',
   openGraph: {
     title: 'Contact VIP Auto Glass Calgary - Get a Free Quote',

@@ -431,7 +431,7 @@ export default function Navbar() {
                   +1 (403) 285-2000
                 </span>
                 <span className="hidden md:block">
-                  Mobile Service Available
+                  Professional Service Available
                 </span>
               </div>
               <div className="flex items-center gap-4">

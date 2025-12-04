@@ -3,12 +3,12 @@ import Footer from '@/components/Footer';
 import RockChipRepairContent from '@/components/services/RockChipRepairContent';
 
 export const metadata = {
-  title: "Rock Chip Repair Calgary $25 | Windshield Crack Repair | VIP Auto Glass",
-  description: "Fast rock chip repair in Calgary for just $25! No appointment needed. Expert windshield crack repair in under 30 minutes. Walk-in service available. Prevent costly replacement today!",
-  keywords: "rock chip repair Calgary, windshield crack repair, chip repair $25, windshield chip repair Calgary, auto glass chip repair, stone chip repair, windshield repair Calgary, cheap windshield repair, quick chip repair, VIP Auto Glass Calgary",
+  title: "Rock Chip Repair Calgary $29.99 | Windshield Crack Repair | VIP Auto Glass",
+  description: "Fast rock chip repair in Calgary for just $29.99! No appointment needed. Expert windshield crack repair in under 30 minutes. Walk-in service available. Prevent costly replacement today!",
+  keywords: "rock chip repair Calgary, windshield crack repair, chip repair $29.99, windshield chip repair Calgary, auto glass chip repair, stone chip repair, windshield repair Calgary, cheap windshield repair, quick chip repair, VIP Auto Glass Calgary",
   openGraph: {
-    title: "Rock Chip Repair Calgary $25 | Quick Windshield Crack Repair",
-    description: "Fast rock chip repair in Calgary for just $25! No appointment needed. Expert service in under 30 minutes. Walk-in welcome!",
+    title: "Rock Chip Repair Calgary $29.99 | Quick Windshield Crack Repair",
+    description: "Fast rock chip repair in Calgary for just $29.99! No appointment needed. Expert service in under 30 minutes. Walk-in welcome!",
     type: "website",
     locale: "en_CA",
     url: "https://vipautoglass.ca/services/rock-chip-repair",
@@ -23,8 +23,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rock Chip Repair Calgary $25 | VIP Auto Glass",
-    description: "Fast rock chip repair for just $25! No appointment needed. Under 30 minutes.",
+    title: "Rock Chip Repair Calgary $29.99 | VIP Auto Glass",
+    description: "Fast rock chip repair for just $29.99! No appointment needed. Under 30 minutes.",
     images: ["/images/vip_logo.png"],
   },
 };

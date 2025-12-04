@@ -65,12 +65,25 @@ export default function AboutSection() {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="text-lg text-gray-600 mb-8 leading-relaxed"
+              className="text-lg text-gray-600 mb-6 leading-relaxed"
             >
               We care about the safety of the person behind the windshield. Our dedicated and experienced
               professional team ensures expert care for your vehicle's glass, prioritizing your satisfaction
               with every service.
             </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.55 }}
+              className="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-primary-light/10 border-2 border-primary/20 rounded-2xl px-6 py-4 mb-8"
+            >
+              <Award className="w-6 h-6 text-primary" />
+              <div>
+                <div className="font-bold text-gray-900">1-Year Workmanship Guarantee</div>
+                <div className="text-sm text-gray-600">All services backed by our professional warranty</div>
+              </div>
+            </motion.div>
 
             {/* Key features */}
             <motion.div
@@ -82,8 +95,8 @@ export default function AboutSection() {
               {[
                 'Professional Team',
                 'Customer Support',
-                'Mobile Service',
-                'Quality Guarantee'
+                'On-Site Service',
+                '1-Year Warranty'
               ].map((feature, index) => (
                 <div
                   key={index}

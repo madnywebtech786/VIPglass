@@ -13,11 +13,11 @@ const contactInfo = [
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    icon: MapPin,
-    title: 'Address',
-    details: '10960 42 St NE #235',
-    subtext: 'Calgary, AB T3N 2B8',
-    gradient: 'from-purple-500 to-pink-500',
+    icon: Mail,
+    title: 'Email Us',
+    details: 'info@vipglass.ca',
+    subtext: 'We respond within 24 hours',
+    gradient: 'from-green-500 to-emerald-500',
   },
   {
     icon: Clock,
@@ -230,19 +230,49 @@ export default function ContactSection() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            {/* Map placeholder */}
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-12 h-[400px] relative overflow-hidden group">
-              <div className="absolute inset-0 opacity-10">
-                <div className="absolute top-0 right-0 w-64 h-64 bg-primary rounded-full blur-3xl group-hover:scale-150 transition-transform duration-1000"></div>
-                <div className="absolute bottom-0 left-0 w-64 h-64 bg-primary-light rounded-full blur-3xl group-hover:scale-150 transition-transform duration-1000"></div>
+            {/* Google Map with Address Overlay */}
+            <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+              {/* Map */}
+              <div className="aspect-[16/10] bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1202.4467718003075!2d-113.9731055687069!3d51.15174155570767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5371648042664955%3A0x42751d6aa74b654d!2sVIP%20Glass!5e1!3m2!1sen!2s!4v1764837774747!5m2!1sen!2s"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="absolute inset-0"
+                ></iframe>
+
+                {/* Overlay gradient */}
+                <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
-              <div className="relative z-10 h-full flex flex-col items-center justify-center text-center">
-                <MapPin className="w-16 h-16 text-primary mb-4 animate-bounce" />
-                <h3 className="text-2xl font-bold text-white mb-3">Service Area</h3>
-                <p className="text-gray-300 text-lg mb-4">Calgary & Surrounding Areas</p>
-                <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-6 py-3 rounded-full border border-white/20">
-                  <MapPin className="w-5 h-5 text-primary" />
-                  Mobile Service Available
+
+              {/* Address Overlay Card */}
+              <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md rounded-2xl p-6 shadow-xl border border-gray-100">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-primary-light to-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                      <MapPin className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 text-lg mb-1">VIP Auto Glass</h3>
+                      <p className="text-gray-600 text-sm">
+                        10960 42 St NE #235<br />
+                        Calgary, AB T3N 2B8
+                      </p>
+                    </div>
+                  </div>
+                  <a
+                    href="https://www.google.com/maps/place/VIP+Glass/@51.1517113,-113.9728803,276m/data=!3m3!1e3!4b1!5s0x537163e00eae4c0b:0x6be268130609e7d3!4m6!3m5!1s0x5371648042664955:0x42751d6aa74b654d!8m2!3d51.1517113!4d-113.9715928!16s%2Fg%2F11cjj03kjq?entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-gradient-to-r from-primary-light to-primary hover:from-primary hover:to-primary-dark text-white px-4 py-2 rounded-full font-semibold text-sm transition-all shadow-lg hover:scale-105 flex-shrink-0"
+                  >
+                    <MapPin className="w-4 h-4" />
+                    <span>Directions</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -276,7 +306,7 @@ export default function ContactSection() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <span>Mobile Service Available</span>
+                    <span>Professional Service Available</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">

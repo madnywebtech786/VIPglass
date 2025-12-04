@@ -43,7 +43,7 @@ export default function ContactMapSection() {
             viewport={{ once: true }}
             className="text-lg text-gray-600 max-w-2xl mx-auto"
           >
-            We're conveniently located in Calgary. Stop by or schedule mobile service to your location.
+            We're conveniently located in Calgary. Stop by or schedule professional service at a time that works for you.
           </motion.p>
         </div>
 
@@ -61,7 +61,7 @@ export default function ContactMapSection() {
               <div className="aspect-[16/10] bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
                 {/* You can replace this with actual Google Maps embed */}
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.123!2d-113.9876!3d51.1234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDA3JzI0LjIiTiAxMTPCsDU5JzE1LjQiVw!5e0!3m2!1sen!2sca!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1202.4467718003075!2d-113.9731055687069!3d51.15174155570767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5371648042664955%3A0x42751d6aa74b654d!2sVIP%20Glass!5e1!3m2!1sen!2s!4v1764837774747!5m2!1sen!2s"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -91,7 +91,7 @@ export default function ContactMapSection() {
                     </div>
                   </div>
                   <a
-                    href="https://maps.google.com/?q=10960+42+St+NE+235+Calgary+AB"
+                    href="https://www.google.com/maps/place/VIP+Glass/@51.1517113,-113.9728803,276m/data=!3m3!1e3!4b1!5s0x537163e00eae4c0b:0x6be268130609e7d3!4m6!3m5!1s0x5371648042664955:0x42751d6aa74b654d!8m2!3d51.1517113!4d-113.9715928!16s%2Fg%2F11cjj03kjq?entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-primary-light to-primary hover:from-primary hover:to-primary-dark text-white px-4 py-2 rounded-full font-semibold text-sm transition-all shadow-lg hover:scale-105 flex-shrink-0"
@@ -128,7 +128,7 @@ export default function ContactMapSection() {
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
-                  <span>Mobile Service Available</span>
+                  <span>Professional Service Available</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
@@ -179,7 +179,7 @@ export default function ContactMapSection() {
               <h3 className="text-xl font-bold text-gray-900 mb-3">Open Today</h3>
               <p className="text-primary font-bold text-lg mb-2">9:00 AM - 5:30 PM</p>
               <p className="text-gray-600 text-sm">
-                Mobile service available outside regular hours by appointment
+                Flexible scheduling available outside regular hours by appointment
               </p>
             </div>
           </motion.div>
